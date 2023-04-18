@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/heatherbrandwilliamson/wedding.github.io/static/css/main.9b51a24c.css",
+    "main.js": "/heatherbrandwilliamson/wedding.github.io/static/js/main.6d08ce71.js",
+    "static/js/787.7c09a06b.chunk.js": "/heatherbrandwilliamson/wedding.github.io/static/js/787.7c09a06b.chunk.js",
+    "static/media/BrittanySignature.ttf": "/heatherbrandwilliamson/wedding.github.io/static/media/BrittanySignature.0d8ad040c68381fe6600.ttf",
+    "index.html": "/heatherbrandwilliamson/wedding.github.io/index.html",
+    "main.9b51a24c.css.map": "/heatherbrandwilliamson/wedding.github.io/static/css/main.9b51a24c.css.map",
+    "main.6d08ce71.js.map": "/heatherbrandwilliamson/wedding.github.io/static/js/main.6d08ce71.js.map",
+    "787.7c09a06b.chunk.js.map": "/heatherbrandwilliamson/wedding.github.io/static/js/787.7c09a06b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b51a24c.css",
+    "static/js/main.6d08ce71.js"
+  ]
+}
