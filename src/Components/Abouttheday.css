@@ -1,0 +1,28 @@
+.aboutthedaytext1 {
+    text-align: center;
+    font-family: 'Josefin Sans';
+    font-weight: lighter;
+    font-size: 20px;
+    color: #7f6b61;
+    list-style-type: none;
+  }
+
+  .aboutthedaytext2 {
+    text-align: center;
+    font-family: "BrittanySignature";
+    font-size: 45px;
+    line-height: 2;
+    color: #7f6b61;
+    list-style-type: none;
+  }
+
+  .li {
+    text-align: center;
+    font-family: 'Josefin Sans';
+    font-weight: lighter;
+    font-size: 20px;
+    color: #7f6b61;
+    list-style-type: none;
+
+  }
+

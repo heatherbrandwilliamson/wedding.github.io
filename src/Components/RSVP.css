@@ -1,0 +1,43 @@
+
+
+.RSVP1 {
+  text-align: center;
+  font-family: "BrittanySignature";
+  font-weight: lighter;
+  font-size: 75px;
+  padding: 25px;
+  color: #ffffff;
+  line-height: 1;
+  
+  }
+
+  .RSVP1 a:hover {
+    opacity: 20%;
+    background-color: #c8a99a;
+    padding: 25px;
+    border-radius: 25px;
+  }
+
+  .RSVP1 a:visited {
+    background-color: #c8a99a;
+  }
+
+  .RSVP2 {
+    text-align: center;
+    font-family: "quiverleaf-cf", sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    list-style-type: none;
+    color: #c8a99a;
+  }
+
+  .li {
+    text-align: center;
+    font-family: "quiverleaf-cf", sans-serif;
+    color: #c8a99a;
+
+  }
+
+  .li a:hover, li a:active, li.select {
+    color: var(--grey);
+  }

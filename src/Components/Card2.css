@@ -1,0 +1,40 @@
+.cardtext1 {
+    text-align: center;
+    font-family: "BrittanySignature";
+    font-size: 45px;
+    color: #ffffff;
+    line-height: 2;
+    margin-bottom: 90px;
+
+  }
+
+  .cardtext2 {
+    text-align: center;
+    font-family: 'Josefin Sans';
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+  .cardtext2 a:link { text-decoration: none; }
+
+  .cardtext2 a:hover {
+    opacity: 20%;
+    background-color: #c8a99a;
+    padding: 25px;
+    border-radius: 25px;
+    text-decoration: none;
+  }
+
+  .cardtext2 a:visited {
+    background-color: #c8a99a;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .cardtext2 a:active {
+    background-color: #c8a99a;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
