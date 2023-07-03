@@ -1,5 +1,5 @@
 import React from 'react'
-import './RSVP.css';
+import '../App.css';
 
 const linkStyle = {
   margin: "1rem",

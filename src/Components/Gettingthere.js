@@ -1,5 +1,5 @@
 import React from 'react'
-import './Card2.css';
+import '../App.css';
 
 const Gettingthere = () => {
   return (

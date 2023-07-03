@@ -1,7 +1,12 @@
 /* Default styles */
 .container {
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
 }
+
 
 /* Media query for screens larger than 768px */
 @media (min-width: 768px) {
@@ -9,13 +14,26 @@
     max-width: 960px;
     margin: 0 auto;
   }
+
+  .App {
+    max-width: 960px;
+    margin: 0 auto;
+  }
 }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+@media only screen and (min-width: 480px) {
+  /* styles for devices with a minimum screen width of 480px */
+  }
+  
+  @media only screen and (max-width: 480px) {
+  /* styles for devices with a maximum screen width of 480px */
+  }
+
+body {
+  color:#9c7273
 }
+
+
 
 .box {
   width: 200px;
@@ -23,6 +41,7 @@
   background-color: lightblue;
   margin: 10px;
 }
+
 
 
 .App{
@@ -83,3 +102,265 @@
   font-weight: lighter;
   font-size: 20px;
 }
+
+
+.text1 {
+    text-align: center;
+    font-family: "BrittanySignature";
+    font-size: 45px;
+    color: #7f6b61;
+    margin-top: 30px;
+  }
+
+  .text1 a:hover {
+    color: white;
+  }
+
+  .text1 a:link {
+    color: #7f6b61;
+  }
+
+  .text1 a:active {
+    color: #7f6b61;
+  }
+
+  .text1 a:visited {
+    background-color: #c8a99a;
+  }
+
+
+.text2 {
+    text-align: center;
+    font-family: 'Josefin Sans';
+    font-size: 24px;
+    color: #7f6b61;
+    margin-top: 30px;
+  }
+
+  .aboutthedaytext1 {
+    text-align: center;
+    font-family: 'Josefin Sans';
+    font-weight: lighter;
+    font-size: 20px;
+    color: #7f6b61;
+    list-style-type: none;
+  }
+
+  .aboutthedaytext2 {
+    text-align: center;
+    font-family: "BrittanySignature";
+    font-size: 45px;
+    line-height: 2;
+    color: #7f6b61;
+    list-style-type: none;
+  }
+
+  .li {
+    text-align: center;
+    font-family: 'Josefin Sans';
+    font-weight: lighter;
+    font-size: 20px;
+    color: #7f6b61;
+    list-style-type: none;
+
+  }
+
+  .cardtext1 {
+    text-align: center;
+    font-family: "BrittanySignature";
+    font-size: 45px;
+    color: #ffffff;
+    line-height: 2;
+    margin-bottom: 90px;
+
+  }
+
+  .cardtext2 {
+    text-align: center;
+    font-family: 'Josefin Sans';
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+  .cardtext2 a:link { text-decoration: none; }
+
+  .cardtext2 a:hover {
+    opacity: 20%;
+    background-color: #c8a99a;
+    padding: 25px;
+    border-radius: 25px;
+    text-decoration: none;
+  }
+
+  .cardtext2 a:visited {
+    background-color: #c8a99a;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .cardtext2 a:active {
+    background-color: #c8a99a;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .header {
+    display: flex;
+    width: 75%;
+    height: 150px;
+    margin: auto;
+    border-radius: 10px;
+    border: 3px dashed #5a1559;
+    align-items:center;
+    justify-content:center;
+    position: sticky;
+    top: 0;
+    font-family: "quiverleaf-cf", sans-serif;
+    }
+  
+    .h1 {
+      text-align: center;
+      font-family: "quiverleaf-cf", sans-serif;
+      font-size: 55px;
+      font-weight: lighter;
+    }
+  
+
+
+.home1 {
+    text-align: center;
+    font-family: 'BrittanySignature';
+    font-weight: lighter;
+    font-size: 105px;
+    color: #ffffff;
+    list-style-type: none;
+    line-height: 2;
+    margin-top: 30px;
+  }
+
+  .home2 {
+    font-family: "josefin-sans";
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #ffffff;
+  
+  }
+
+  .hero3 {
+    margin-top: 65px;
+    text-align: center;
+    font-family: "josefin-sans";
+    font-size: 24px;
+    line-height: 1.5;
+    color: #ffffff;
+  }
+
+
+.nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 28px;
+  font-family: 'Grandslang roman', sans-serif;
+  font-size: 18px;
+  position: sticky;
+  top: 0;
+  background-color: #ece7e1;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  }
+
+
+.nav-bar {
+  font-family: 'Grandslang roman', sans-serif;
+  list-style-type: none;
+  margin: 0;
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  position: sticky;
+  top: 0;
+  align-items:center;
+  color: #9c8772;
+}
+
+.nav-item {
+  font-family: 'Grandslang roman', sans-serif;
+  text-decoration: none;
+  display: inline;
+  padding: 1em;
+  color: rgb(23, 17, 17);
+  text-decoration: none;
+  font-size: 14px;
+  color: #7f6b61;
+  background-color: #ece7e1;
+  font-weight: lighter;
+  z-index:99;
+
+}
+
+.nav-link {
+  text-align: center;
+  font-family: 'Grandslang roman', sans-serif;
+}
+
+.nav-items:hover {
+  opacity: 100%;
+  color: #ffffff;
+  cursor:grab;
+
+}
+
+
+.navigation a:hover {
+  background: #727477;
+}
+
+
+
+.RSVP1 {
+  text-align: center;
+  font-family: "BrittanySignature";
+  font-weight: lighter;
+  font-size: 75px;
+  padding: 25px;
+  color: #ffffff;
+  line-height: 1;
+  
+  }
+
+  .RSVP1 a:hover {
+    opacity: 20%;
+    background-color: #c8a99a;
+    padding: 25px;
+    border-radius: 25px;
+  }
+
+  .RSVP1 a:visited {
+    background-color: #c8a99a;
+  }
+
+  .RSVP2 {
+    text-align: center;
+    font-family: "quiverleaf-cf", sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    list-style-type: none;
+    color: #c8a99a;
+  }
+
+  .li {
+    text-align: center;
+    font-family: "quiverleaf-cf", sans-serif;
+    color: #c8a99a;
+
+  }
+
+  .li a:hover, li a:active, li.select {
+    color: var(--grey);
+  }

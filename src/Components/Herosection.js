@@ -1,6 +1,5 @@
 import React from 'react'
-import './Herosection.css';
-
+import '../App.css';
 
 const Hero = () => {
   return (

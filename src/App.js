@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import Section from "./Components/Section";
-import dummyText from "./DummyText";
 import Hero from "./Components/Herosection";
 import Accomodation from "./Components/Accomodation";
 import Abouttheday from "./Components/Abouttheday";

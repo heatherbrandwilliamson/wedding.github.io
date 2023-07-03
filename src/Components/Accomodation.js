@@ -1,5 +1,5 @@
 import React from 'react'
-import './Accomodation.css';
+import '../App.css';
 
 const linkStyle = {
   margin: "1rem",

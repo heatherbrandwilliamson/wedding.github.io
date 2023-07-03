@@ -1,5 +1,5 @@
 import React from 'react'
-import './Abouttheday.css';
+import '../App.css';
 
 const Abouttheday = () => {
   return (
